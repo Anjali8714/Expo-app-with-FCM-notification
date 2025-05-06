@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "454436247271",
+    "project_id": "fcm-notification-dac98",
+    "storage_bucket": "fcm-notification-dac98.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454436247271:android:88dc9646058abc9124b442",
+        "android_client_info": {
+          "package_name": "com.anjali.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS1e1s7feWGQNqe1AK_sqqRlUEMkQ6prg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
