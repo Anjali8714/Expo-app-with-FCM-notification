@@ -10,6 +10,8 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-firebase/app": "^22.1.0",
+    "@react-native-firebase/messaging": "^22.1.0",
     "eas-cli": "^16.4.0",
     "expo": "~53.0.7",
     "expo-status-bar": "~2.2.3",
