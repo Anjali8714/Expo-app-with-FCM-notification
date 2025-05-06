@@ -21,11 +21,35 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "permissions": ["INTERNET"]
-      
+      "permissions": [
+        "INTERNET",
+        "RECEIVE_BOOT_COMPLETED"
+      ],
+      "googleServicesFile": "./android/app/google-services.json",
+      "package": "com.anj_alit.mynextwebviewapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "kotlinVersion": "1.8.10"
+          }
+        }
+      ],
+      "@react-native-firebase/app",
+      "@react-native-firebase/messaging"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "29ff312b-ed8b-45e7-b5d9-727d73f3ed49"
+      }
+    },
+    "owner": "anj_ali-t"
   }
 }
